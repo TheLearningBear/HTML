@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>My Registration Form</title>
+			<link rel="stylesheet" href="my_style.css">
+			<meta charset="UTF-8">
+		</head>
+		<body>
+			<h1>My Registration form</h1>
+			<form action="/action_page.php">
+				First name:&nbsp;&nbsp;<input type="text" name="firstname">
+				<br>
+				Last name:&nbsp;&nbsp;
+				<input type="text" name="lastname">
+				<br>
+				Email:&nbsp;&nbsp;
+				<input type="text" name="Email">
+				<br>
+				Password:&nbsp;&nbsp;
+				<input type="text" name="Password">
+				<br>
+				Password Confirm:&nbsp;&nbsp;
+				<input type="text" name="Password-confrim">
+				<br><br>
+				Birthday:&nbsp;&nbsp;<input type="date" name="date">
+				<br><br>
+				Gender :
+				<input type="radio" name="gender">Male
+				<input type="radio" name="gender">Female
+				<input type="radio" name="gender">Other
+				<p>A short description about yourself</p>
+				<textarea rows="8" cols="50">
+				</textarea>
+				<br>
+				<p>Favorite Language</p>
+				<select>
+					<option value="HTML">HTML</option>
+					<option value="CSS">CSS</option>
+					<option value="JavaScript">JavaScript</option>
+					<option value="jQuery">jQuery</option>
+				</select>
+				<br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</body>
+	</html>
